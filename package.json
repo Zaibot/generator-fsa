@@ -8,6 +8,9 @@
     "email": "tdgroen@zaibot.net",
     "url": ""
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": ["generators"],
   "main": "generators/index.js",
   "keywords": ["fsa", "action", "redux", "typescript", "yeoman-generator"],
