@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js:
+  - node
+deploy:
+  provider: npm
+  email: tdgroen@zaibot.net
+  api_key:
+    secure: F3fSnB2LmhskjBghBAbRmm17m+9Mk4YJiUPpnfwLqIjxzzrqKmHeg8O/+tGJ83zsdxJwQ20FXyi74+F5ykQKBlQEI6cNsS7V2h77O+R5N5Let+sPykMgu6b45TFT9Pd9OTxRgwh+0sLipQjeqHdCetHF84YJFvInRV5dYnaZtS45oXkhIsvZzS5YyljUrEmlepbSTqXxhZ0NW8aCUw7w1rAQaJ5tK8L1YOsV0xR3wf8+lwshIFdpFUT7882WW1TfF9CQExtImht1eHvP16+SMHk87C1ruLHLSZxDSzkeiFeHVlABZBHwGRTjmAMsfSDemVGSsfGakuGXSSz6Khmt9BKgUJPG391bjVl+ooMylcoKIY5E4rKzVcUnZXjqmquDMYJ/mmEjmqPrFd5XorZHkA1CoP8CAVE01k0OrvH8Nz/txROnMJHcMmkxeLSOy2sEZAc2jgGGqZfZz+7f+NvPKEfsNPtwzdhsF8T/KqVmbD8GiPQQmy5mrone7gyE21bSLN6GQbo6o2jKRo2K6Z9XRwbt55EJTtPA3MxpvuQ3Jrkv3A0ppSC1ST9fyzyaV8kcFy6fvNxPUt80ddZkGHIxZRX6k0h909En9hMkivDeu8nKZzO8ddmmt/keSYajFLCSsHXn6aub3KOIPPY3LYzn8uqSBmzEMGIjO+PwA4wQOLM=
+  on:
+    tags: true
+    repo: Zaibot/generator-fsa

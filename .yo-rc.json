@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Tobias de Groen",
+      "authorEmail": "tdgroen@zaibot.net",
+      "authorUrl": ""
+    }
+  }
+}
