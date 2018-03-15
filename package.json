@@ -1,19 +1,25 @@
 {
   "name": "@zaibot/generator-fsa",
   "version": "0.1.3",
-  "description": "",
-  "homepage": "",
+  "description": "Generate a new Flux Standard Action in TypeScript using @zaibot/fsa",
   "author": {
     "name": "Tobias de Groen",
-    "email": "tdgroen@zaibot.net",
-    "url": ""
+    "email": "tdgroen@zaibot.net"
   },
   "publishConfig": {
     "access": "public"
   },
-  "files": ["generators"],
+  "files": [
+    "generators"
+  ],
   "main": "generators/index.js",
-  "keywords": ["fsa", "action", "redux", "typescript", "yeoman-generator"],
+  "keywords": [
+    "fsa",
+    "action",
+    "redux",
+    "typescript",
+    "yeoman-generator"
+  ],
   "devDependencies": {
     "yeoman-test": "^1.7.0",
     "yeoman-assert": "^3.1.0",
@@ -43,11 +49,20 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"],
-    "*.json": ["prettier --write", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "eslintConfig": {
-    "extends": ["xo", "prettier"],
+    "extends": [
+      "xo",
+      "prettier"
+    ],
     "env": {
       "jest": true,
       "node": true
@@ -61,7 +76,9 @@
         }
       ]
     },
-    "plugins": ["prettier"]
+    "plugins": [
+      "prettier"
+    ]
   },
   "repository": "git@github.com:Zaibot/generator-fsa.git",
   "license": "MIT"
